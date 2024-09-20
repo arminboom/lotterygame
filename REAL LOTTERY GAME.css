@@ -1,0 +1,201 @@
+body {
+    background: linear-gradient(#000000, #00006c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+#Status {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    left: 632.5px;
+    bottom: 650px;
+}
+
+#Name {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    position: absolute;
+    left: 550px;
+    bottom: 575px;
+}
+
+#WinTable, #I1, #I2, #I3, #I4, #I5 {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    bottom: -45px;
+}
+
+#I6 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    bottom: -45px;
+}
+
+#Warning {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    bottom: -80px;
+}
+
+#Description {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    bottom: -75px;
+}
+
+#Roll {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 85%;
+    color: #FFFFFF;
+    border: 1px solid white;
+    position: relative;
+    bottom: -45.5px;
+    left: 450px;
+}
+
+#Rolls {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+    bottom: -45px;
+}
+
+#MoneyAmount {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    top: -0px;
+}
+
+#MoneyLabel {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -10px;
+}
+
+#RollsAmount {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+}
+
+#RollsLabel {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 35px;
+}
+
+#MoneyGiver {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    left: 725px;
+    top: 125px;
+}
+
+#InputLabel {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: -85px;
+}
+
+#inputNumbers {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 85%;
+    width: 165px;
+    border: 1px solid white;
+    position: relative;
+    bottom: -85px;
+}
+
+#inputNumbers[type="text"] {
+    background-color: transparent;
+    color:#FFFFFF;
+}
+
+#MusicLabel {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+
+#Play {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid white;
+    position: absolute;
+    left: 1240px;
+    top: 55px;
+    width: 75px;
+    height: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+#Pause {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid white;
+    position: absolute;
+    left: 1340px;
+    top: 55px;
+    width: 75px;
+    height: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+img {
+    width: 1495px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+    top: 445.5px;
+}

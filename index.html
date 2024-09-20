@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOTTERY GAME</title>
+    <link rel="favicon.ico" href="favicon.ico">
+    <link rel="favicon.ico" href="data:image/x-icon;,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="REAL LOTTERY GAME.css">
+    <script src="REAL LOTTERY GAME.js"></script>
+</head>
+<body id="body">
+<p id="Status">Status 1: A Beggining Addiction</p>
+<p id="Name"> THE LOTTERY GAME </p>
+ </div>
+<p id="Description"> Hello bro, are you felling lucky today? Like... REALLY LUCKY? Well you are at the right place to test your luck! You need to input 5 numbers from 101-190 and the game will randomly generate 5 numbers, and see what you get! Have fun and good luck!</p>
+ </div>
+<p id="Warning"> MAKE SURE TO PUT COMMAS TO SEPERATE YOUR NUMBERS </p>
+<form>
+    <label id="InputLabel" for="inputNumbers">Input your numbers: (Cost: 10$)ㅤ</label>
+    <input type="text" id="inputNumbers" name="inputNumbers" maxlength="19">
+</form>
+ </br>
+<button id="Roll" style="background-color: transparent;color: #FFFFFF" onclick="rollNumbers(); LotteryOnClick(); DeductMoneyOnLottery(); Clear(); document.getElementById('inputNumbers').value = '';">Roll your numbers</button>
+<p id="Rolls">Rolls appear here!</p>
+<p id="WinTable"> Chances of winning: 
+<p id="I1"> 1 Matching: 1/5.65 chance </p>
+<p id="I2"> 2 Matching: 1/44 chance </p>
+<p id="I3"> 3 Matching: 1/1,231 chance </p>
+<p id="I4"> 4 Matching: 1/103,410 chance (gl bro) </p>
+<p id="I5"> 5 Matching: 1/43,949,268 chance (you are NOT getting this😭😭😭.) </p> 
+<p id="I6"> 6 Matching: No.</p> </p>
+<p id="MusicLabel">(♫): A Piano in Love</p>
+<p id="MoneyAmount">0</p>
+<p id="MoneyLabel">Money ($):</p>
+<p id="RollsAmount">0</p>
+<p id="RollsLabel">Rolls:</p>
+<button id="MoneyGiver" onclick="MoneyOnClick()" style="background-color: transparent;color: #FFFFFF">[$]</button>
+<img src="LasVegas.png">
+<audio id="Music" loop hidden src="lotterymusic.mp3"></audio>
+<button id="Play" onclick="playAudio()" type="button">Play</button>
+<button id="Pause" onclick="pauseAudio()" type="button">Pause</button>
+</body>
+</html>
